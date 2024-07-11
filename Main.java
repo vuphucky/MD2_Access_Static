@@ -2,11 +2,15 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        Car car1 = new Car("mazda 3", "Skyactiv 3");
-        System.out.println("loai xe thu: " + Car.numberOfCar);
-        car1.display();
-        Car car2 = new Car("mazda 6", "Skyactiv 6");
-        System.out.println("Loai xe thu: " + Car.numberOfCar);
-        car2.display();
+        Student.change();
+        Student std1 = new Student(1, "duy");
+        Student std2 = new Student(2, "tuan");
+        Student std3 = new Student(3, "chuyen");
+        Student std4 = new Student(4, "long");
+
+        std1.display();
+        std2.display();
+        std3.display();
+        std4.display();
     }
 }
